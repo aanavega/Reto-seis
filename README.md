@@ -218,5 +218,59 @@ if __name__ == "__main__":
 
 ```
 
+### Codigo numero 7
+
+- Escriba un programa que pida 5 números reales y calcule las siguientes operaciones usando una función para cada una:
+  - El promedio
+  - La mediana
+  - El promedio multiplicativo (multilplica todos y luego calcula la raíz de la cantidad de operandos)
+  - Ordenar los números de forma ascendente
+  - Ordenar los números de forma descendente
+  - La potencia del mayor número elevado al menor número
+  - La raíz cúbica del menor número
+
+```Python
+
+
+
+
+
+```
+
+### Codigo numero 8
+
+- Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
+
+
+```Python
+
+
+
+```
+
+### Punto numero 9
+
+- Consultar qué es y cómo funciona pip en python.
+
+Pip es un sistema de gestión de paquetes utilizado para instalar y administrar paquetes de software escritos en Python. Para instalarlo podemos instalar un codigo pre-determinado, lo ejecutamos y alli podremos instalar pip.
+
+### Punto numero 10
+
+- Hacer un listado de módulos populares para python que se puedan instalar com pip y consultar cómo instalarlos.
+
+  - NumPy: Biblioteca fundamental para la computación científica en Python, especialmente para trabajar con matrices y arreglos multidimensionales.
+  - Pandas: Librería utilizada para la manipulación y análisis de datos en Python, ofrece estructuras de datos flexibles y eficientes.
+  - Matplotlib: Librería para la creación de gráficos y visualizaciones en Python.
+  - Scikit-learn: Biblioteca de aprendizaje automático de código abierto que ofrece herramientas simples y eficientes para análisis predictivo de datos.
+  - TensorFlow: Plataforma de código abierto para aprendizaje automático desarrollada por Google, que permite construir y entrenar modelos de aprendizaje automático.
+  - PyTorch: Biblioteca de aprendizaje automático de código abierto desarrollada por Facebook, que proporciona herramientas para construir y entrenar modelos de aprendizaje profundo.
+  - Django: Framework web de alto nivel que fomenta un desarrollo rápido y limpio, basado en el patrón de diseño Modelo-Vista-Controlador (MVC).
+  - Flask: Microframework web minimalista para Python, utilizado para crear aplicaciones web rápidas y eficientes.
+  - Requests: Librería HTTP elegante y simple para Python, utilizada para realizar solicitudes HTTP.
+  - Beautiful Soup: Librería utilizada para extraer datos de archivos HTML y XML.
+ 
+Para instalar cualquiera de estos modulos, abrimos la terminal del computador y escribimos, pip list; alli se nos desplegaran los modulos que ya tenemos instalados. Para instalar uno nuevo, simplemente escribimos alli mismo, pip install (nombre del modulo). Por ejemplo, para instalar el modulo Numpy, seria: pip install numpy
+
+
   
 
