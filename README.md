@@ -362,8 +362,11 @@ Pip es un sistema de gestión de paquetes utilizado para instalar y administrar 
 
 ## Instalacion
 
-Para instalar cualquiera de estos modulos, abrimos la terminal del computador y escribimos, pip list; alli se nos desplegaran los modulos que ya tenemos instalados. Para instalar uno nuevo, simplemente escribimos alli mismo, pip install (nombre del modulo). Por ejemplo, para instalar el modulo Numpy, seria: pip install numpy
+Para instalar cualquiera de estos modulos, abrimos la terminal del computador y escribimos, pip list; alli se nos desplegaran los modulos que ya tenemos instalados. Para instalar uno nuevo, simplemente escribimos alli mismo, pip install (nombre del modulo). De este modo:
+stalación:
+```Python
+pip install numpy
 
-
+```
   
 
