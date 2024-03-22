@@ -241,6 +241,8 @@ def promediomultiplicativo(Primer_numero: float, Segundo_numero: float, Tercer_n
 
 # Definir funcion para ordenar los numeros de forma ascendente y descendente, para el caso 1 > numeros
 def ordenarnumeros(Primer_numero, Segundo_numero, Tercer_numero, Cuarto_numero, Quinto_numero):
+
+# Realizar una serie de condicionales para los casos de cada numero
     if Primer_numero > Segundo_numero and Segundo_numero > Tercer_numero and Tercer_numero > Cuarto_numero and Cuarto_numero > Quinto_numero: #1>2>3>4>5
         print("Los numeros ordenados de forma descendente van: " +str(Primer_numero)+ ","+ str(Segundo_numero)+ ","+ str(Tercer_numero)+ ","+ str( Cuarto_numero)+ ","+ str(Quinto_numero)+ ".")
         print("Los numeros ordenados de forma ascendente van: "+ str(Quinto_numero)+ ","+ str(Cuarto_numero)+ ","+ str(Tercer_numero)+ ","+ str(Segundo_numero)+ ","+ str(Primer_numero)+".")
@@ -323,6 +325,7 @@ calcularpotencia = potencia(Primer_numero, Segundo_numero, Tercer_numero, Cuarto
 calcularraiz = raizcubica(Primer_numero, Segundo_numero, Tercer_numero, Cuarto_numero, Quinto_numero)
 calcularorden = ordenarnumeros(Primer_numero, Segundo_numero, Tercer_numero, Cuarto_numero, Quinto_numero)
 
+# Definir los mensajes de cada operacion
 print("El promedio de los numeros es: " + str(calcularpromedio))
 print("El promedio multiplicativo es: " + str(calcularpromediomultiplicativo))
 print("La potencia del mayor numero elevado al menor numero es " + str(calcularpotencia))
@@ -334,8 +337,19 @@ print("La raiz cubica del menor numero es " + str(calcularraiz))
 
 - Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
 
-Estan arriba
+```Python
 
+from Reto_6_Punto_7 import *
+
+Promedio = promedio(Primer_numero, Segundo_numero, Tercer_numero, Cuarto_numero, Quinto_numero)
+Promedio_multiplicativo = promediomultiplicativo (Primer_numero, Segundo_numero, Tercer_numero, Cuarto_numero, Quinto_numero)
+Ordenar_numeros = ordenarnumeros(Primer_numero, Segundo_numero, Tercer_numero, Cuarto_numero, Quinto_numero)
+Mayor_numeros = obtenermayornumero(Primer_numero, Segundo_numero, Tercer_numero, Cuarto_numero, Quinto_numero)
+Menor_numeros = obtenermenornumero(Primer_numero, Segundo_numero, Tercer_numero, Cuarto_numero, Quinto_numero)
+Potencia = potencia(Primer_numero, Segundo_numero, Tercer_numero, Cuarto_numero, Quinto_numero)
+Raiz_cubica = raizcubica(Primer_numero, Segundo_numero, Tercer_numero, Cuarto_numero, Quinto_numero)
+
+```
 
 ### Punto numero 9
 
@@ -368,5 +382,31 @@ stalación:
 pip install numpy
 
 ```
-  
+```Python
+pip install pandas
+```
+```Python
+pip install matplotlib
+```
+```Python
+pip install scikit-learn
+```
+```Python
+pip install tensorflow
+```
+```Python
+pip install torch
+```
+```Python
+pip install django
+```
+```Python
+pip install flask
+```
+```Python
+pip install requests
+```
+```Python
+pip install beautifulsoup4
+```
 
