@@ -361,7 +361,7 @@ Pip es un sistema de gestión de paquetes utilizado para instalar y administrar 
 
 - Hacer un listado de módulos populares para python que se puedan instalar com pip y consultar cómo instalarlos.
 
-## Listado
+### Listado
 
   - NumPy: Biblioteca fundamental para la computación científica en Python, especialmente para trabajar con matrices y arreglos multidimensionales.
   - Pandas: Librería utilizada para la manipulación y análisis de datos en Python, ofrece estructuras de datos flexibles y eficientes.
