@@ -374,7 +374,7 @@ Pip es un sistema de gestión de paquetes utilizado para instalar y administrar 
   - Requests: Librería HTTP elegante y simple para Python, utilizada para realizar solicitudes HTTP.
   - Beautiful Soup: Librería utilizada para extraer datos de archivos HTML y XML.
 
-## Instalacion
+### Instalacion
 
 Para instalar cualquiera de estos modulos, abrimos la terminal del computador y escribimos, pip list; alli se nos desplegaran los modulos que ya tenemos instalados. Para instalar uno nuevo, simplemente escribimos alli mismo, pip install (nombre del modulo). De este modo:
 
